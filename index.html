@@ -107,13 +107,14 @@
   .project-card.featured .project-title{font-size:42px;}
   #mira{background:var(--surface);}
   .builds-intro{font-size:13px;line-height:2;color:#888;max-width:600px;margin-bottom:40px;}
-  .builds-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;background:var(--bg);border:none;margin:0 auto;}
+  .builds-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--border);border:1px solid var(--border);margin:0 auto;}
   @media(max-width:620px){.builds-grid{grid-template-columns:1fr;}}
   .build-slot{background:var(--bg);aspect-ratio:1/1;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden;transition:all .3s cubic-bezier(.16,1,.3,1);}
   .build-slot:hover{background:var(--surface2);}
-  .build-slot img{width:60% !important;height:60% !important;object-fit:cover;transition:all .3s cubic-bezier(.16,1,.3,1);border:2px solid var(--accent);border-radius:2px;max-width:60% !important;max-height:60% !important;flex-shrink:0;}
+  .build-slot img{position:absolute;inset:4px;width:calc(100% - 8px) !important;height:calc(100% - 8px) !important;object-fit:cover;transition:transform .4s cubic-bezier(.16,1,.3,1);max-width:none !important;max-height:none !important;}
+  .build-slot:hover img{transform:scale(1.08);}
   .build-slot:hover img{transform:scale(1.05);}
-  .build-overlay{position:absolute;width:60%;height:60%;left:50%;top:50%;transform:translate(-50%,-50%);background:rgba(10,10,10,.75);display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .3s;z-index:2;border-radius:2px;border:2px solid var(--accent);padding:0;box-sizing:border-box;}
+  .build-overlay{position:absolute;inset:0;background:rgba(10,10,10,.8);display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .3s;z-index:2;}
   .build-slot:hover .build-overlay{opacity:1;}
   .build-overlay span{font-family:'Bebas Neue',sans-serif;font-size:16px;letter-spacing:3px;color:var(--accent);text-align:center;padding:8px;word-wrap:break-word;max-width:90%;}
   .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.93);z-index:9990;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .4s cubic-bezier(.16,1,.3,1);}
@@ -228,9 +229,9 @@
                 <div class="social-icon">&lt;/&gt;</div>
                 <div><div class="social-platform">GitHub</div><div class="social-handle">MollyMo31</div></div>
               </a>
-              <a href="mailto:leo.lussan@gmail.com" class="social-link">
+              <a href="/cdn-cgi/l/email-protection#e08c858fce8c959393818ea0878d81898cce838f8d" class="social-link">
                 <div class="social-icon">✉</div>
-                <div><div class="social-platform">Email</div><div class="social-handle">leo.lussan@gmail.com</div></div>
+                <div><div class="social-platform">Email</div><div class="social-handle"><span class="__cf_email__" data-cfemail="e8848d87c6849d9b9b8986a88f85898184c68b8785">[email&#160;protected]</span></div></div>
               </a>
             </div>
           </div>
@@ -620,7 +621,7 @@
   <div class="section-label">// 007 — Contact</div>
   <h2 class="section-title fade-in">ME CONTACTER</h2>
   <div class="contact-grid fade-in">
-    <a href="mailto:leo.lussan@gmail.com" class="contact-card"><div class="contact-icon">✉️</div><div class="contact-platform">Email</div><div class="contact-handle">leo.lussan@gmail.com</div></a>
+    <a href="/cdn-cgi/l/email-protection#533f363c7d3f262020323d13343e323a3f7d303c3e" class="contact-card"><div class="contact-icon">✉️</div><div class="contact-platform">Email</div><div class="contact-handle"><span class="__cf_email__" data-cfemail="e18d848ecf8d949292808fa1868c80888dcf828e8c">[email&#160;protected]</span></div></a>
     <a href="https://www.linkedin.com/in/leo-lussan-571768251/" target="_blank" class="contact-card"><div class="contact-icon">💼</div><div class="contact-platform">LinkedIn</div><div class="contact-handle">léo-lussan-571768251</div></a>
     <a href="https://www.twitch.tv/MollyMo31" target="_blank" class="contact-card"><div class="contact-icon">🎮</div><div class="contact-platform">Twitch</div><div class="contact-handle">MollyMo31</div></a>
     <a href="https://github.com/MollyMo31" target="_blank" class="contact-card"><div class="contact-icon">&lt;/&gt;</div><div class="contact-platform">GitHub</div><div class="contact-handle">MollyMo31</div></a>
@@ -636,7 +637,7 @@
   <div class="fade-in" style="max-width:720px;font-size:13px;line-height:2;color:#888;display:flex;flex-direction:column;gap:28px;">
     <div style="border-left:2px solid var(--accent);padding-left:20px;">
       <div style="font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:2px;color:var(--text);margin-bottom:8px;">Éditeur du site</div>
-      <p>Nom : <strong style="color:var(--text);">Lussan Léo</strong><br>Statut : Étudiant en Bachelor Game Design<br>École : Brassart, Toulouse, France<br>Email : <a href="mailto:leo.lussan@gmail.com" style="color:var(--accent);text-decoration:none;">leo.lussan@gmail.com</a></p>
+      <p>Nom : <strong style="color:var(--text);">Lussan Léo</strong><br>Statut : Étudiant en Bachelor Game Design<br>École : Brassart, Toulouse, France<br>Email : <a href="/cdn-cgi/l/email-protection#8ee2ebe1a0e2fbfdfdefe0cee9e3efe7e2a0ede1e3" style="color:var(--accent);text-decoration:none;"><span class="__cf_email__" data-cfemail="8ee2ebe1a0e2fbfdfdefe0cee9e3efe7e2a0ede1e3">[email&#160;protected]</span></a></p>
     </div>
     <div style="border-left:2px solid var(--accent2);padding-left:20px;">
       <div style="font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:2px;color:var(--text);margin-bottom:8px;">Hébergement</div>
@@ -648,7 +649,7 @@
     </div>
     <div style="border-left:2px solid var(--accent2);padding-left:20px;">
       <div style="font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:2px;color:var(--text);margin-bottom:8px;">Données personnelles</div>
-      <p>Ce site ne collecte aucune donnée personnelle. Aucun cookie de traçage n'est déposé. Conformément au RGPD, vous pouvez exercer vos droits via : <a href="mailto:leo.lussan@gmail.com" style="color:var(--accent);text-decoration:none;">leo.lussan@gmail.com</a></p>
+      <p>Ce site ne collecte aucune donnée personnelle. Aucun cookie de traçage n'est déposé. Conformément au RGPD, vous pouvez exercer vos droits via : <a href="/cdn-cgi/l/email-protection#09656c6627657c7a7a6867496e64686065276a6664" style="color:var(--accent);text-decoration:none;"><span class="__cf_email__" data-cfemail="660a0309480a131515070826010b070f0a4805090b">[email&#160;protected]</span></a></p>
     </div>
     <div style="border-left:2px solid var(--accent);padding-left:20px;">
       <div style="font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:2px;color:var(--text);margin-bottom:8px;">Liens externes</div>
@@ -672,7 +673,7 @@
   <div class="lightbox-caption" id="lightbox-caption"></div>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   const cursor=document.getElementById('cursor');
   const ring=document.getElementById('cursorRing');
   let mx=0,my=0,rx=0,ry=0;
@@ -685,7 +686,7 @@
   const obs=new IntersectionObserver(entries=>{
     entries.forEach((e,i)=>{if(e.isIntersecting){setTimeout(()=>e.target.classList.add('visible'),i*65);obs.unobserve(e.target);}});
   },{threshold:.07});
-  document.querySelectorAll('.fade-in').forEach(f=>obs.observe(f));
+    document.querySelectorAll('.fade-in').forEach(f=>obs.observe(f));
   document.querySelector('.hero .fade-in')?.classList.add('visible');
   function openLightbox(el){
     const img=el.querySelector('img');
@@ -702,4 +703,3 @@
 </script>
 </body>
 </html>
-
